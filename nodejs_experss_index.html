@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>SCG Forum Site</h1>
+        <h2>글 작성</h2>
+        
+        <form id="text-form" action="/home" method="GET">
+            <p>
+            제목 : <input type="text" name="title">
+            </p>
+            <p>
+            내용 : <input type="text" name="description">
+            </p>
+            <p><input type="submit"></p>
+        </form>
+        
+        <h2>글 조회</h2>
+        <form id="text-form2" action="/data" method="GET">
+            글 번호: <input type="text" name="number">
+            <input type="submit">
+        </form>
+</html>
